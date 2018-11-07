@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/mj0ln1r/get_anime/videos'
+let g:netrw_dirhist_2='/home/mj0ln1r/get_anime/videos/The-Legend-of-Korra-Season-1'
+let g:netrw_dirhist_3='/home/mj0ln1r/get_anime/videos/The-Legend-of-Korra-Season-3'
+let g:netrw_dirhist_4='/home/mj0ln1r/get_anime/videos/The-Legend-of-Korra-Season-4'
+let g:netrw_dirhist_5='/home/mj0ln1r/get_anime/videos/The-Legend-of-Korra-Season-1'

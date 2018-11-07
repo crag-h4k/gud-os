@@ -1,0 +1,58 @@
+# git
+alias "gita"="git add -A"
+alias "gitcl"="git clone https://github.com/"
+alias "gitcm"="git commit -m"
+alias "gitpl"="git pull"
+alias "gitpm"="git push origin master"
+alias "gitst"="git status"
+#
+# specific application aliases
+alias "venv"="source ./venv/bin/activate"
+alias "screen"="byobu-screen"
+alias "beep"="tput bell"
+alias "sourcez"="source /etc/zsh/zshrc"
+alias "vimrc"="vim /etc/vim/vimrc.local"
+alias "zshrc"="vim /etc/zsh/zshrc && source /etc/zsh/zshrc"
+#
+# change directory shortcuts
+alias "brologs"="cd /usr/local/bro/logs/current"
+alias "broconf"="cd /usr/local/bro/etc"
+#
+# system command aliases 
+alias "sysctl-st"="systemctl status"
+alias "sysctl-r"="systemctl restart"
+alias "sysctl-e"="systemctl enable"
+alias "rn"="systemctl reboot now"
+alias "install"="sudo apt install"
+alias "purge"="sudo apt remove --purge"
+alias "upd"="sudo apt update"
+alias "upg"="sudo apt upg -y"
+alias "net"="netstat -tulpna"
+alias "svi"="sudo vim"
+alias "vun"="vim"
+alias "ping -c 5"=""
+alias "wnet"="watch -n .1 -c 'netstat -tulpna'"
+alias "myip"="ip -br addr"
+alias "du"="du -h"
+alias "df"="df -h"
+alias "ihs"="history|grep"
+alias "most recent"="ls -ltrRh"
+#alias ""=""
+#
+# make system default python -> python3
+alias 'python'='/usr/bin/python3'
+alias 'pip'='/usr/bin/pip3'
+alias 'pip2'='/usr/bin/pip'
+alias 'python2'='/usr/bin/python2'
+#
+# autocorrect
+alias "vm"="mv"
+alias "cd.."="cd .."
+#
+# Functions ##############################
+# $ = pattern, $2 =  path
+findstr() { grep -rnw $1 -e $2 }
+# make a dir and cd into it
+mkcd() { mkdir -p $1; cd $1 }
+# find and kill processes
+fkill() { kill -9 $( ps aux| grep '$1')}

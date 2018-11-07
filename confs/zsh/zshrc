@@ -1,0 +1,56 @@
+# If you come from bash you might have to change your $PATH.
+#export PATH=$HOME/bin:/usr/local/bin:$PATH
+# Path to your oh-my-zsh installation.
+export ZSH=/etc/zsh/oh-my-zsh
+# Set name of the theme to load. Optionally, if you set this to "random"
+
+if [ ! -f /etc/zsh/oh-my-zsh/themes/bolverk.zsh-theme ]; then
+  ln -f /etc/zsh/bolverk.zsh-theme /etc/zsh/oh-my-zsh/themes/bolverk.zsh-theme
+fi
+
+ZSH_THEME="bolverk" #re5et, sunaku,arrow,lambda
+plugins=(
+  git
+)
+ZSH_DISABLE_COMPFIX=true
+touch ~/.zshrc
+source $ZSH/oh-my-zsh.sh
+source /etc/zsh/alias
+#
+# stop all beeps
+unsetopt beep
+unsetopt list_beep
+unsetopt hist_beep
+#
+# history settings
+HISTFILE=~/.zsh_history
+HISTSIZE=2048
+SAVEHIST=2048
+setopt append_history       # append history
+setopt hist_reduce_blanks   # removes un-needed blank spaces and lines from history
+setopt hist_verify          # verify before executing history command
+setopt extended_history     # save time/date in zsh_history
+setopt share_history        # share history between sessions
+#
+# alerts 
+watch=all                   # watch all logins
+logcheck=15                 # every 15 seconds
+
+#path exports
+
+export HISTTIMEFORMAT="%d/%m/%y %T"
+
+export PATH=$HOME/.local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/sbin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/usr/local/bro/bin:$PATH
+
+myip
+#theme candy
+#theme fortune
+#theme re5et
+alias "running"="systemctl list-units --state=running"
+alias "active"="systemctl list-units --state=active"
+alias "active"="systemctl list-unit-files --state=enabled"
+alias "failed"="systemctl list-units --state=failed --all"
