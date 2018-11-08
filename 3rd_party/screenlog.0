@@ -1,0 +1,1205 @@
+   ehttps://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh"[69Dechttps://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh"[69D[1Chttps://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh"[69Dohttps://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh"[69D https://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh"[69D"https://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh"[69D[69C >> miniconda.sh[1m [0m[Kh[K[?1l>[?2004l
+kecho\[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:36:53[89D[?1h=[?2004hvvim miniconda.sh[1m [0m[0m [?1l>[?2004l
+kvim\[?1000h[?1049h[?1h=[1;26r[34l[34h[?25h[23m[24m[0m[H[J[?25l[26;1H"miniconda.sh" 5L, 221C[1;1H[38;5;60m  1 [0m[38;5;61m#!/usr/bin/env bash[0m
+[38;5;60m  2 [0m[38;5;117mdest[0m=[38;5;212m"[0m[38;5;228m/root/miniconda3_installer.sh[0m[38;5;212m"[0m
+[38;5;60m  3 [0mcurl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-[4marmv7l[24m.sh [38;5;212m>>[0m [38;5;212m$dest[0m
+[38;5;60m  4 [0mbash [38;5;212m$dest[0m
+[38;5;60m  5 [0mhttps://repo.continuum.io/miniconda/Miniconda-3.[38;5;141m16[0m.0-Linux-[4marmv7l[24m.sh
+[38;5;231m~                                                                                            [7;1H~                                                                                            [8;1H~                                                                                            [9;1H~                                                                                            [10;1H~                                                                                            [11;1H~                                                                                            [12;1H~                                                                                            [13;1H~                                                                                            [14;1H~                                                                                            [15;1H~                                                                                            [16;1H~                                                                                            [17;1H~                                                                                            [18;1H~                                                                                            [19;1H~                                                                                            [20;1H~                                                                                            [21;1H~                                                                                            [22;1H~                                                                                            [23;1H~                                                                                            [24;1H~                                                                                            [25;1H~                                                                                            [0m[26;76H3,71[10CAll[3;75H[34h[?25h[?25l[34h[?25h[?25l[26;76H4,10[4;14H[34h[?25h[?25l[26;66H2[3;75H[1C[48;5;241m.sh [0m[38;5;212m[48;5;241m>>[0m[48;5;241m [0m[38;5;212m[48;5;241m$dest[0m[48;5;241m [4;5Hbash [0m[38;5;212m[48;5;241m$dest[0m[26;1H[1m-- VISUAL --[0m[26;13H[K[26;66H2[3;75H[26;76H3,71[10CAll[3;75H[34h[?25h[?25l[26;66H [2;40H[3;76H.sh [38;5;212m>>[0m [38;5;212m$dest[0m[3;88H[K[4;5Hbash [38;5;212m$dest[0m[26;1H[K[26;76H2,36[10CAll[2;40H[34h[?25h[?25l[3;70Harmv7l[5;64Harmv7l[2;40H[34h[?25h[?25l[26;66H^[[2;40H[26;66H  [2;40H[26;66H^[[2;40H[26;66H  [2;40H[34h[?25h[?25l[26;66Ho[2;40H[26;66H [3;5H[26;1H[1m-- INSERT --[0m[26;76H[K[26;76H3,1[11CTop[3;5H[K[4;5Hcurl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh [38;5;212m>>[0m [38;5;212m$dest[0m[5;5Hbash [38;5;212m$dest[0m[5;15H[K[6;1H[38;5;60m  6 [0mhttps://repo.continuum.io/miniconda/Miniconda-3.[38;5;141m16[0m.0-Linux-armv7l.sh[6;73H[K[3;5H[34h[?25h[?25lu[26;78H2[11CAll[3;6H[34h[?25h[?25lr[26;78H3[3;7H[34h[?25h[?25ll[26;78H4[3;8H[34h[?25h[?25l[38;5;117murl[0m=[26;78H5[3;9H[34h[?25h[?25l[26;76H6,43[6;47H[34h[?25h[26;1H[K[6;46H[?25l[26;66H^[[6;46H[26;66H  [6;47H[26;76H6,42[10CAll[6;46H[34h[?25h[?25l[26;66Hd[6;46H[34h[?25h[?25l[26;66H [6;46H[34h[?25h[?25l[26;66Hdd[6;46H[26;66H  [5;5H
+[38;5;231m~                                                                                            [0m[26;76H5,1 [5;5H[34h[?25h[?25l[1;20H[4m[38;5;61mbash[24m[0m[5;5H[4mbash[34h[?25h[?25l[24m[26;76H3,4[3;8H[34h[?25h[?25l[1;20H[38;5;61mbash[0m[5;5Hbash[3;8H[34h[?25h[?25l[26;66H^[[3;8H[26;66H  [3;8H[26;66H^[[3;8H[26;66H  [3;8H[34h[?25h[?25l[26;66Hp[3;8H[26;66H [4;5Hhttps://repo.continuum.io/miniconda/Miniconda-3.[38;5;141m16[0m.0-Linux-armv7l.sh[4;73H[K[5;5Hcurl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh [38;5;212m>>[0m [38;5;212m$dest[0m
+[38;5;60m  6 [0mbash [38;5;212m$dest[0m[6;15H[K[26;76H4,1[4;5H[34h[?25h[?25l[4mhttps[5;10Hhttps[4;5H[34h[?25h[?25l[24m[26;66Hi[4;5H[26;66H [4;5H[26;1H[1m-- INSERT --[0m[26;76H[K[26;76H4,1[11CAll[4;5H[34h[?25h[?25l[3;9H[4mhttps[24m://repo.continuum.io/miniconda/Miniconda-3.[38;5;141m16[0m.0-Linux-armv7l.sh[4;5Hcurl [4mhttps[24m://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh [38;5;212m>>[0m [38;5;212m$dest[0m[5;5Hbash [38;5;212m$dest[0m[5;15H[K[6;1H[38;5;231m~                                                                                            [0m[26;76H3,5[3;9H[34h[?25h[?25l[38;5;212m"[0m[4m[38;5;228mhttps[24m[0m[38;5;228m://repo.continuum.io/miniconda/Miniconda-3.16.0-Linux-armv7l.sh[4;5Hcurl [0m[4m[38;5;228mhttps[24m[0m[38;5;228m://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh >> [5;5Hbash [0m[26;78H6[3;10H[34h[?25h[?25l[26;78H74[3;78H[34h[?25h[?25l[38;5;212m"[0m[4;5Hcurl [4mhttps[24m://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh [38;5;212m>>[0m [5;5Hbash [26;79H5[3;79H[34h[?25h[?25l[26;76H4[4;79H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;87H[K[26;79H4[4;78H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;86H[K[26;79H3[4;77H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;85H[K[26;79H2[4;76H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;84H[K[26;79H1[4;75H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;83H[K[26;79H0[4;74H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;82H[K[26;78H69[4;73H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;81H[K[26;79H8[4;72H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;80H[K[26;79H7[4;71H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;79H[K[26;79H6[4;70H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;78H[K[26;79H5[4;69H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;77H[K[26;79H4[4;68H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;76H[K[26;79H3[4;67H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;75H[K[26;79H2[4;66H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;74H[K[26;79H1[4;65H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;73H[K[26;79H0[4;64H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;72H[K[26;78H59[4;63H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;71H[K[26;79H8[4;62H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;70H[K[26;79H7[4;61H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;69H[K[26;79H6[4;60H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;68H[K[26;79H5[4;59H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;67H[K[26;79H4[4;58H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;66H[K[26;79H3[4;57H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;65H[K[26;79H2[4;56H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;64H[K[26;79H1[4;55H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;63H[K[26;79H0[4;54H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;62H[K[26;78H49[4;53H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;61H[K[26;79H8[4;52H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;60H[K[26;79H7[4;51H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;59H[K[26;79H6[4;50H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;58H[K[26;79H5[4;49H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;57H[K[26;79H4[4;48H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;56H[K[26;79H3[4;47H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;55H[K[26;79H2[4;46H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;54H[K[26;79H1[4;45H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;53H[K[26;79H0[4;44H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;52H[K[26;78H39[4;43H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;51H[K[26;79H8[4;42H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;50H[K[26;79H7[4;41H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;49H[K[26;79H6[4;40H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;48H[K[26;79H5[4;39H[34h[?25h[?25l [38;5;212m>>[0m [38;5;212m$dest[0m[4;46H[K[26;79H3[4;37H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;45H[K[26;79H2[4;36H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;44H[K[26;79H1[4;35H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;43H[K[26;79H0[4;34H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;42H[K[26;78H29[4;33H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;41H[K[26;79H8[4;32H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;40H[K[26;79H7[4;31H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;39H[K[26;79H6[4;30H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;38H[K[26;79H5[4;29H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;37H[K[26;79H4[4;28H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;36H[K[26;79H3[4;27H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;35H[K[26;79H2[4;26H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;34H[K[26;79H1[4;25H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;33H[K[26;79H0[4;24H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;32H[K[26;78H19[4;23H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;31H[K[26;79H8[4;22H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;30H[K[26;79H7[4;21H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;29H[K[26;79H6[4;20H[34h[?25h[?25l[38;5;212mr[0m [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;28H[K[26;79H5[4;19H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;27H[K[26;79H4[4;18H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;26H[K[26;79H3[4;17H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;25H[K[26;79H2[4;16H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;24H[K[26;79H1[4;15H[34h[?25h[?25lhttp [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;23H[K[26;79H0[4;14H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;22H[K[26;78H9 [4;13H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;21H[K[26;78H8[4;12H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;20H[K[26;78H7[4;11H[34h[?25h[?25l [38;5;212m>[0m[1C [38;5;212m$dest[0m[4;19H[K[26;78H6[4;10H[34h[?25h[?25l$ [1C[38;5;212m>[0m [38;5;212m$dest[0m[26;78H7[4;11H[34h[?25h[?25l[38;5;212m$u[0m [1C[38;5;212m>[0m [38;5;212m$dest[0m[26;78H8[4;12H[34h[?25h[?25l[38;5;212mr[0m [1C[38;5;212m>[0m [38;5;212m$dest[0m[26;78H9[4;13H[34h[?25h[?25l[38;5;212ml[0m [1C[38;5;212m>[0m [38;5;212m$dest[0m[26;78H10[4;14H[34h[?25h[26;1H[K[4;13H[?25l[26;66H^[[4;13H[26;66H  [4;14H[26;76H4,9[11CAll[4;13H[34h[?25h[?25l[26;66H^[[4;13H[26;66H  [4;13H[34h[?25h[?25l[26;66H:[4;13H[26;66H[K[26;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"miniconda.sh" 5L, 162C written
+[?1l>[34h[?25h[?1049l[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:37:30[89D[?1h=[?2004hrrm ~/miniconda3_installer.sh[1m [0m[0m [?1l>[?2004l
+krm\[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:37:36[89D[?1h=[?2004hbbash miniconda.sh[1m [0m[0m [?1l>[?2004l
+kbash\  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 23 19.7M   23 4765k    0     0  4021k      0  0:00:05  0:00:01  0:00:04 4021k100 19.7M  100 19.7M    0     0   9.9M      0  0:00:01  0:00:01 --:--:--  9.9M
+
+Welcome to Miniconda 3.16.0 (by Continuum Analytics, Inc.)
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+===================================
+Anaconda END USER LICENSE AGREEMENT
+===================================
+Anaconda ("the Software Product") and accompanying documentation is
+licensed and not sold. The Software Product is protected by copyright laws
+and treaties, as well as laws and treaties related to other forms of
+intellectual property. Continuum Analytics Inc or its subsidiaries,
+affiliates, and suppliers (collectively "Continuum ") own intellectual
+property rights in the Software Product. The Licensee's ("you" or "your")
+license to download, use, copy, or change the Software Product is subject
+to these rights and to all the terms and conditions of this End User
+License Agreement ("Agreement").
+
+In addition to Continuum-licensed software, the Software product contains a
+collection of software packages from other sources ("Other Vendor Tools").
+Continuum may also distribute updates to these packages on an "as is" basis
+and subject to their individual license agreements.   These licenses are
+available either in the package itself or via request to info@continuum.io.
+Continuum reserves the right to change which Other Vendor Tools are
+provided in Anaconda.
+
+Attribution License
+===================
+Redistribution and derivative use of Anaconda, with or without
+modification, in source or binary form is explicitly permitted provided
+[3m--More--[23mthat:[K
+[3m--More--[23m[K
+[3m--More--[23m1. You include a copy of this EULA in all copies of the derived software.
+[3m--More--[23m2. In advertising and labeling material for products built with Anaconda
+[3m--More--[23myou mention that your product either includes or derives from Anaconda.
+[3m--More--[23m"Powered by Anaconda" is the suggested phrase.
+[3m--More--[23m[K
+[3m--More--[23m[K
+[3m--More--[23mExport Regulations
+[3m--More--[23m==================
+[3m--More--[23mAny use or distribution of Anaconda is made under conditions that the user
+[3m--More--[23mand/or distributor is in full compliance with all export and other
+[3m--More--[23mgoverning laws of the United States of America, including full and ongoing
+[3m--More--[23mcompliance with the Export Administration Regulations (EAR) of the United
+[3m--More--[23mStates Department of Commerce. See www.commerce.gov/ and
+[3m--More--[23mhttp://www.bis.doc.gov/index.php/regulations/export-administration-
+[3m--More--[23mregulations-ear.  Use or distribution of Continuum software products to any
+[3m--More--[23mpersons, entities or countries currently under US sanctions is strictly
+[3m--More--[23mprohibited.   Anaconda is classified with an ECCN of 5D992 with no license
+[3m--More--[23mrequired for export to non-embargoed countires.
+[3m--More--[23m[K
+[3m--More--[23mThe United States currently has embargoes against Cuba, Iran, North Korea,
+[3m--More--[23mSudan and Syria. The exportation, re-exportation, sale or supply, directly
+[3m--More--[23mor indirectly, from the United States, or by a U.S. person wherever
+[3m--More--[23mlocated, of any Continuum software to any of these countries is strictly
+[3m--More--[23mprohibited without prior authorization by the United States Government  By
+[3m--More--[23maccepting this Agreement, you represent to Continuum that you will comply
+[3m--More--[23mwith all applicable export regulations for Anaconda.
+[3m--More--[23m[K
+[3m--More--[23mNo Implied Warranty or Fitness for Any Use
+[3m--More--[23m==========================================
+[3m--More--[23mTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+[3m--More--[23mAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+[3m--More--[23mIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+[3m--More--[23mARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+[3m--More--[23mLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+[3m--More--[23mCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+[3m--More--[23mSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+[3m--More--[23mINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+[3m--More--[23mCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+[3m--More--[23mARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+[3m--More--[23mPOSSIBILITY OF SUCH DAMAGE
+
+Do you approve the license terms? [yes|no]
+[no] >>> 
+The license agreement wasn't approved, aborting installation.
+In order to approve the agreement, you need to type "yes".
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\
+[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004h[?1l>[?2004l
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\
+[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004h[?1l>[?2004l
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\
+[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004h[?1l>[?2004l
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\
+[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004h[?1l>[?2004l
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\
+
+[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004h[?1l>[?2004l
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004h[?1l>[?2004l
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os/pi\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os/pi[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:37:58[89D[?1h=[?2004hbbash min     b  ccd[?1l>[?2004l
+kcd\[1m[3m#[23m[1m[0m                                                                                             k~\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:38:05[89D[?1h=[?2004hlls[?1l>[?2004l
+kls\[0m[01;34mbolverk-os[0m  [01;34mbro[0m  [01;34mkatoolin[0m  miniconda3_installer.sh  ntop.key  [01;34mPF_RING[0m  pi_pkgs.sh
+[1m[3m#[23m[1m[0m                                                                                             k~\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:38:05[89D[?1h=[?2004hbbash miniconda3_installer.sh[1m [0m[0m [?1l>[?2004l
+kbash\
+Welcome to Miniconda 3.16.0 (by Continuum Analytics, Inc.)
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+===================================
+Anaconda END USER LICENSE AGREEMENT
+===================================
+Anaconda ("the Software Product") and accompanying documentation is
+licensed and not sold. The Software Product is protected by copyright laws
+and treaties, as well as laws and treaties related to other forms of
+intellectual property. Continuum Analytics Inc or its subsidiaries,
+affiliates, and suppliers (collectively "Continuum ") own intellectual
+property rights in the Software Product. The Licensee's ("you" or "your")
+license to download, use, copy, or change the Software Product is subject
+to these rights and to all the terms and conditions of this End User
+License Agreement ("Agreement").
+
+In addition to Continuum-licensed software, the Software product contains a
+collection of software packages from other sources ("Other Vendor Tools").
+Continuum may also distribute updates to these packages on an "as is" basis
+and subject to their individual license agreements.   These licenses are
+available either in the package itself or via request to info@continuum.io.
+Continuum reserves the right to change which Other Vendor Tools are
+provided in Anaconda.
+
+Attribution License
+===================
+Redistribution and derivative use of Anaconda, with or without
+modification, in source or binary form is explicitly permitted provided
+[3m--More--[23mthat:[K
+[3m--More--[23m[K
+[3m--More--[23m1. You include a copy of this EULA in all copies of the derived software.
+[3m--More--[23m2. In advertising and labeling material for products built with Anaconda
+[3m--More--[23myou mention that your product either includes or derives from Anaconda.
+[3m--More--[23m"Powered by Anaconda" is the suggested phrase.
+[3m--More--[23m[K
+[3m--More--[23m[K
+[3m--More--[23mExport Regulations
+[3m--More--[23m==================
+[3m--More--[23mAny use or distribution of Anaconda is made under conditions that the user
+[3m--More--[23mand/or distributor is in full compliance with all export and other
+[3m--More--[23mgoverning laws of the United States of America, including full and ongoing
+[3m--More--[23mcompliance with the Export Administration Regulations (EAR) of the United
+[3m--More--[23mStates Department of Commerce. See www.commerce.gov/ and
+[3m--More--[23mhttp://www.bis.doc.gov/index.php/regulations/export-administration-
+[3m--More--[23mregulations-ear.  Use or distribution of Continuum software products to any
+[3m--More--[23mpersons, entities or countries currently under US sanctions is strictly
+[3m--More--[23mprohibited.   Anaconda is classified with an ECCN of 5D992 with no license
+[3m--More--[23mrequired for export to non-embargoed countires.
+[3m--More--[23m[K
+[3m--More--[23mThe United States currently has embargoes against Cuba, Iran, North Korea,
+[3m--More--[23mSudan and Syria. The exportation, re-exportation, sale or supply, directly
+[3m--More--[23mor indirectly, from the United States, or by a U.S. person wherever
+[3m--More--[23mlocated, of any Continuum software to any of these countries is strictly
+[3m--More--[23mprohibited without prior authorization by the United States Government  By
+[3m--More--[23maccepting this Agreement, you represent to Continuum that you will comply
+[3m--More--[23mwith all applicable export regulations for Anaconda.
+[3m--More--[23m[K
+[3m--More--[23mNo Implied Warranty or Fitness for Any Use
+[3m--More--[23m==========================================
+[3m--More--[23mTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+[3m--More--[23mAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+[3m--More--[23mIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+[3m--More--[23mARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+[3m--More--[23mLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+[3m--More--[23mCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+[3m--More--[23mSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+[3m--More--[23mINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+[3m--More--[23mCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+[3m--More--[23mARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+[3m--More--[23mPOSSIBILITY OF SUCH DAMAGE
+
+Do you approve the license terms? [yes|no]
+[no] >>> 
+The license agreement wasn't approved, aborting installation.
+In order to approve the agreement, you need to type "yes".
+[1m[3m#[23m[1m[0m                                                                                             k~\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:38:22[89D[?1h=[?2004hbash miniconda3_installer.sh[?1l>[?2004l
+kbash\
+Welcome to Miniconda 3.16.0 (by Continuum Analytics, Inc.)
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+===================================
+Anaconda END USER LICENSE AGREEMENT
+===================================
+Anaconda ("the Software Product") and accompanying documentation is
+licensed and not sold. The Software Product is protected by copyright laws
+and treaties, as well as laws and treaties related to other forms of
+intellectual property. Continuum Analytics Inc or its subsidiaries,
+affiliates, and suppliers (collectively "Continuum ") own intellectual
+property rights in the Software Product. The Licensee's ("you" or "your")
+license to download, use, copy, or change the Software Product is subject
+to these rights and to all the terms and conditions of this End User
+License Agreement ("Agreement").
+
+In addition to Continuum-licensed software, the Software product contains a
+collection of software packages from other sources ("Other Vendor Tools").
+Continuum may also distribute updates to these packages on an "as is" basis
+and subject to their individual license agreements.   These licenses are
+available either in the package itself or via request to info@continuum.io.
+Continuum reserves the right to change which Other Vendor Tools are
+provided in Anaconda.
+
+Attribution License
+===================
+Redistribution and derivative use of Anaconda, with or without
+modification, in source or binary form is explicitly permitted provided
+[3m--More--[23mthat:[K
+[3m--More--[23m[K
+[3m--More--[23m1. You include a copy of this EULA in all copies of the derived software.
+[3m--More--[23m2. In advertising and labeling material for products built with Anaconda
+[3m--More--[23myou mention that your product either includes or derives from Anaconda.
+[3m--More--[23m"Powered by Anaconda" is the suggested phrase.
+[3m--More--[23m[K
+[3m--More--[23m[K
+[3m--More--[23mExport Regulations
+[3m--More--[23m==================
+[3m--More--[23mAny use or distribution of Anaconda is made under conditions that the user
+[3m--More--[23mand/or distributor is in full compliance with all export and other
+[3m--More--[23mgoverning laws of the United States of America, including full and ongoing
+[3m--More--[23mcompliance with the Export Administration Regulations (EAR) of the United
+[3m--More--[23mStates Department of Commerce. See www.commerce.gov/ and
+[3m--More--[23mhttp://www.bis.doc.gov/index.php/regulations/export-administration-
+[3m--More--[23mregulations-ear.  Use or distribution of Continuum software products to any
+[3m--More--[23mpersons, entities or countries currently under US sanctions is strictly
+[3m--More--[23mprohibited.   Anaconda is classified with an ECCN of 5D992 with no license
+[3m--More--[23mrequired for export to non-embargoed countires.
+[3m--More--[23m[K
+[3m--More--[23mThe United States currently has embargoes against Cuba, Iran, North Korea,
+[3m--More--[23mSudan and Syria. The exportation, re-exportation, sale or supply, directly
+[3m--More--[23mor indirectly, from the United States, or by a U.S. person wherever
+[3m--More--[23mlocated, of any Continuum software to any of these countries is strictly
+[3m--More--[23mprohibited without prior authorization by the United States Government  By
+[3m--More--[23maccepting this Agreement, you represent to Continuum that you will comply
+[3m--More--[23mwith all applicable export regulations for Anaconda.
+[3m--More--[23m[K
+[3m--More--[23mNo Implied Warranty or Fitness for Any Use
+[3m--More--[23m==========================================
+[3m--More--[23mTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+[3m--More--[23mAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+[3m--More--[23mIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+[3m--More--[23mARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+[3m--More--[23mLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+[3m--More--[23mCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+[3m--More--[23mSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+[3m--More--[23mINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+[3m--More--[23m[K[3mNo previous regular expression[23m[K
+Do you approve the license terms? [yes|no]
+[no] >>> q no
+The license agreement wasn't approved, aborting installation.
+In order to approve the agreement, you need to type "yes".
+[1m[3m#[23m[1m[0m                                                                                             k~\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~[00m
+[35m⚡ [00m[K[66C[01;31m:( 2[00m 18-11-08 - 6:38:37[89D[?1h=[?2004hrrm miniconda3_installer.sh[1m [0m[0m [?1l>[?2004l
+krm\[1m[3m#[23m[1m[0m                                                                                             k~\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:38:40[89D[?1h=[?2004hccd bolverk-os[1m/[0m[0m [?1l>[?2004l
+kcd\[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:38:42[89D[?1h=[?2004hl ttree .[?1l>[?2004l
+ktree\[01;34m.[00m
+├── [01;34m3rd_party[00m
+│   ├── bro_install.sh
+│   ├── katoolin_install.sh
+│   ├── maxmind_geolite.sh
+│   ├── media_server_pkgs.sh
+│   ├── miniconda.sh
+│   ├── omz_install.sh
+│   ├── plex.sh
+│   ├── screenlog.0
+│   ├── tor_broswer.sh
+│   └── [01;32mvmware-install.pl[00m
+├── [01;34mcd-build[00m
+│   ├── get_packages.sh
+│   ├── make_cd.sh
+│   └── [01;35msplash.png[00m
+├── [01;34mconfs[00m
+│   ├── [01;34mapt[00m
+│   │   ├── [01;34mapt.conf.d[00m
+│   │   │   ├── 00CDMountPoint
+│   │   │   ├── 00trustcdrom
+│   │   │   ├── 01autoremove
+│   │   │   ├── 01autoremove-kernels
+│   │   │   ├── 20listchanges
+│   │   │   └── 70debconf
+│   │   ├── listchanges.conf
+│   │   ├── [01;34mpreferences.d[00m
+│   │   │   ├── experimental.pref
+│   │   │   ├── security.pref
+│   │   │   ├── stable.pref
+│   │   │   └── unstable.pref
+│   │   ├── sources.list~
+│   │   ├── [01;34msources.list.d[00m
+│   │   │   ├── experimental.list
+│   │   │   ├── security.list
+│   │   │   ├── stable.list
+│   │   │   └── unstable.list
+│   │   └── [01;34mtrusted.gpg.d[00m
+│   │       ├── debian-archive-jessie-automatic.gpg
+│   │       ├── debian-archive-jessie-security-automatic.gpg
+│   │       ├── debian-archive-jessie-stable.gpg
+│   │       ├── debian-archive-stretch-automatic.gpg
+│   │       ├── debian-archive-stretch-security-automatic.gpg
+│   │       ├── debian-archive-stretch-stable.gpg
+│   │       ├── debian-archive-wheezy-automatic.gpg
+│   │       └── debian-archive-wheezy-stable.gpg
+│   ├── [01;34mbro[00m
+│   │   ├── auto_bro.py
+│   │   ├── networks.cfg
+│   │   ├── node.cfg
+│   │   └── node.py
+│   ├── [01;34mi3[00m
+│   │   └── config
+│   ├── [01;34mimgs[00m
+│   │   ├── [01;35maxe.jpg[00m
+│   │   ├── [01;35mbattle2.jpg[00m
+│   │   ├── [01;35mbattle.jpg[00m
+│   │   ├── [01;35mblue.jpg[00m
+│   │   ├── [01;35mborealis2.jpg[00m
+│   │   ├── [01;35mborealis3.jpg[00m
+│   │   ├── [01;35mborealis4.jpg[00m
+│   │   ├── [01;35mborealis.jpg[00m
+│   │   ├── [01;35mfjord.jpg[00m
+│   │   ├── [01;35mnightlights.jpg[00m
+│   │   ├── [01;35mserpent2.jpg[00m
+│   │   ├── [01;35mserpent.jpg[00m
+│   │   └── [01;35msimple.jpg[00m
+│   ├── install_confs.sh
+│   ├── sources.list
+│   ├── [01;34murxvt[00m
+│   ├── [01;34mvim[00m
+│   │   ├── anothertest.py
+│   │   ├── [01;34mcolors[00m
+│   │   │   ├── 0x7A69_dark.vim
+│   │   │   ├── 1989.vim
+│   │   │   ├── 256-grayvim.vim
+│   │   │   ├── 256-jungle.vim
+│   │   │   ├── 256_noir.vim
+│   │   │   ├── 3dglasses.vim
+│   │   │   ├── abbott.vim
+│   │   │   ├── abra.vim
+│   │   │   ├── adam.vim
+│   │   │   ├── adaryn.vim
+│   │   │   ├── adobe.vim
+│   │   │   ├── adrian.vim
+│   │   │   ├── advantage.vim
+│   │   │   ├── af.vim
+│   │   │   ├── aiseered.vim
+│   │   │   ├── alduin.vim
+│   │   │   ├── anderson.vim
+│   │   │   ├── anotherdark.vim
+│   │   │   ├── ansi_blows.vim
+│   │   │   ├── antares.vim
+│   │   │   ├── apprentice.vim
+│   │   │   ├── aqua.vim
+│   │   │   ├── argonaut.vim
+│   │   │   ├── ashen.vim
+│   │   │   ├── asmanian2.vim
+│   │   │   ├── asmanian_blood.vim
+│   │   │   ├── asmdev2.vim
+│   │   │   ├── asmdev.vim
+│   │   │   ├── astronaut.vim
+│   │   │   ├── asu1dark.vim
+│   │   │   ├── atom.vim
+│   │   │   ├── aurora.vim
+│   │   │   ├── automation.vim
+│   │   │   ├── autumnleaf.vim
+│   │   │   ├── autumn.vim
+│   │   │   ├── babymate256.vim
+│   │   │   ├── badwolf.vim
+│   │   │   ├── bandit.vim
+│   │   │   ├── base16-ateliercave.vim
+│   │   │   ├── base16-atelierdune.vim
+│   │   │   ├── base16-atelierestuary.vim
+│   │   │   ├── base16-atelierforest.vim
+│   │   │   ├── base16-atelierheath.vim
+│   │   │   ├── base16-atelierlakeside.vim
+│   │   │   ├── base16-atelierplateau.vim
+│   │   │   ├── base16-ateliersavanna.vim
+│   │   │   ├── base16-atelierseaside.vim
+│   │   │   ├── base16-ateliersulphurpool.vim
+│   │   │   ├── base16-railscasts.vim
+│   │   │   ├── base.vim
+│   │   │   ├── basic.vim
+│   │   │   ├── baycomb.vim
+│   │   │   ├── bayQua.vim
+│   │   │   ├── bclear.vim
+│   │   │   ├── beachcomber.vim
+│   │   │   ├── beauty256.vim
+│   │   │   ├── beekai.vim
+│   │   │   ├── behelit.vim
+│   │   │   ├── benlight.vim
+│   │   │   ├── Benokai.vim
+│   │   │   ├── bensday.vim
+│   │   │   ├── billw.vim
+│   │   │   ├── biogoo.vim
+│   │   │   ├── birds-of-paradise.vim
+│   │   │   ├── black_angus.vim
+│   │   │   ├── blackbeauty.vim
+│   │   │   ├── blackboard.vim
+│   │   │   ├── blackdust.vim
+│   │   │   ├── blacklight.vim
+│   │   │   ├── BlackSea.vim
+│   │   │   ├── Black.vim
+│   │   │   ├── blaquemagick.vim
+│   │   │   ├── blazer.vim
+│   │   │   ├── blink.vim
+│   │   │   ├── Blue2.vim
+│   │   │   ├── bluechia.vim
+│   │   │   ├── bluedrake.vim
+│   │   │   ├── bluegreen.vim
+│   │   │   ├── blueprint.vim
+│   │   │   ├── blueshift.vim
+│   │   │   ├── blue.vim
+│   │   │   ├── bluez.vim
+│   │   │   ├── blugrine.vim
+│   │   │   ├── bmichaelsen.vim
+│   │   │   ├── bocau.vim
+│   │   │   ├── bog.vim
+│   │   │   ├── borland.vim
+│   │   │   ├── breeze.vim
+│   │   │   ├── brogrammer.vim
+│   │   │   ├── brookstream.vim
+│   │   │   ├── brown.vim
+│   │   │   ├── bubblegum-256-dark.vim
+│   │   │   ├── bubblegum-256-light.vim
+│   │   │   ├── bubblegum.vim
+│   │   │   ├── buddy.vim
+│   │   │   ├── burnttoast256.vim
+│   │   │   ├── busierbee.vim
+│   │   │   ├── busybee.vim
+│   │   │   ├── buttercream.vim
+│   │   │   ├── bvemu.vim
+│   │   │   ├── bw.vim
+│   │   │   ├── c16gui.vim
+│   │   │   ├── C64.vim
+│   │   │   ├── cabin.vim
+│   │   │   ├── cake16.vim
+│   │   │   ├── cake.vim
+│   │   │   ├── calmar256-dark.vim
+│   │   │   ├── calmar256-light.vim
+│   │   │   ├── camo.vim
+│   │   │   ├── campfire.vim
+│   │   │   ├── candycode.vim
+│   │   │   ├── candyman.vim
+│   │   │   ├── CandyPaper.vim
+│   │   │   ├── candy.vim
+│   │   │   ├── caramel.vim
+│   │   │   ├── carrot.vim
+│   │   │   ├── carvedwoodcool.vim
+│   │   │   ├── carvedwood.vim
+│   │   │   ├── cascadia.vim
+│   │   │   ├── cgpro.vim
+│   │   │   ├── chance-of-storm.vim
+│   │   │   ├── charged-256.vim
+│   │   │   ├── charon.vim
+│   │   │   ├── Chasing_Logic.vim
+│   │   │   ├── chela_light.vim
+│   │   │   ├── chlordane.vim
+│   │   │   ├── ChocolateLiquor.vim
+│   │   │   ├── ChocolatePapaya.vim
+│   │   │   ├── chocolate.vim
+│   │   │   ├── chrysoprase.vim
+│   │   │   ├── clarity.vim
+│   │   │   ├── cleanphp.vim
+│   │   │   ├── cleanroom.vim
+│   │   │   ├── clearance.vim
+│   │   │   ├── cloudy.vim
+│   │   │   ├── clue.vim
+│   │   │   ├── cobalt2.vim
+│   │   │   ├── cobaltish.vim
+│   │   │   ├── cobalt.vim
+│   │   │   ├── coda.vim
+│   │   │   ├── codeblocks_dark.vim
+│   │   │   ├── codeburn.vim
+│   │   │   ├── CodeFactoryv3.vim
+│   │   │   ├── codeschool.vim
+│   │   │   ├── coffee.vim
+│   │   │   ├── coldgreen.vim
+│   │   │   ├── colorer.vim
+│   │   │   ├── colorful256.vim
+│   │   │   ├── colorful.vim
+│   │   │   ├── colorsbox-faff.vim
+│   │   │   ├── colorsbox-greenish.vim
+│   │   │   ├── colorsbox-material.vim
+│   │   │   ├── colorsbox-stblue.vim
+│   │   │   ├── colorsbox-stbright.vim
+│   │   │   ├── colorsbox-steighties.vim
+│   │   │   ├── colorsbox-stnight.vim
+│   │   │   ├── colorzone.vim
+│   │   │   ├── contrasty.vim
+│   │   │   ├── cool.vim
+│   │   │   ├── corn.vim
+│   │   │   ├── corporation.vim
+│   │   │   ├── crayon.vim
+│   │   │   ├── crt.vim
+│   │   │   ├── cthulhian.vim
+│   │   │   ├── custom.vim
+│   │   │   ├── c.vim
+│   │   │   ├── d8g_01.vim
+│   │   │   ├── d8g_02.vim
+│   │   │   ├── d8g_03.vim
+│   │   │   ├── d8g_04.vim
+│   │   │   ├── dante.vim
+│   │   │   ├── Dark2.vim
+│   │   │   ├── darkblack.vim
+│   │   │   ├── darkblue2.vim
+│   │   │   ├── darkblue.vim
+│   │   │   ├── darkBlue.vim
+│   │   │   ├── darkbone.vim
+│   │   │   ├── darkburn.vim
+│   │   │   ├── DarkDefault.vim
+│   │   │   ├── darkdevel.vim
+│   │   │   ├── darkdot.vim
+│   │   │   ├── darkeclipse.vim
+│   │   │   ├── darkerdesert.vim
+│   │   │   ├── darker-robin.vim
+│   │   │   ├── darkocean.vim
+│   │   │   ├── darkrobot.vim
+│   │   │   ├── dark-ruby.vim
+│   │   │   ├── darkslategray.vim
+│   │   │   ├── darkspectrum.vim
+│   │   │   ├── darktango.vim
+│   │   │   ├── Dark.vim
+│   │   │   ├── darkzen.vim
+│   │   │   ├── darkZ.vim
+│   │   │   ├── darth.vim
+│   │   │   ├── dawn.vim
+│   │   │   ├── deepsea.vim
+│   │   │   ├── default.vim
+│   │   │   ├── delek.vim
+│   │   │   ├── delphi.vim
+│   │   │   ├── denim.vim
+│   │   │   ├── derefined.vim
+│   │   │   ├── desert256v2.vim
+│   │   │   ├── desert256.vim
+│   │   │   ├── desertedoceanburnt.vim
+│   │   │   ├── desertedocean.vim
+│   │   │   ├── desertEx.vim
+│   │   │   ├── desertink.vim
+│   │   │   ├── desert.vim
+│   │   │   ├── detailed.vim
+│   │   │   ├── devbox-dark-256.vim
+│   │   │   ├── DevC++.vim
+│   │   │   ├── Dev_Delight.vim
+│   │   │   ├── deveiate.vim
+│   │   │   ├── developer.vim
+│   │   │   ├── Dim2.vim
+│   │   │   ├── DimBlue.vim
+│   │   │   ├── DimGreens.vim
+│   │   │   ├── DimGreen.vim
+│   │   │   ├── DimGrey.vim
+│   │   │   ├── DimRed.vim
+│   │   │   ├── DimSlate.vim
+│   │   │   ├── Dim.vim
+│   │   │   ├── disciple.vim
+│   │   │   ├── distinguished.vim
+│   │   │   ├── django.vim
+│   │   │   ├── donbass.vim
+│   │   │   ├── doorhinge.vim
+│   │   │   ├── doriath.vim
+│   │   │   ├── [01;32mdracula.vim[00m
+│   │   │   ├── dual.vim
+│   │   │   ├── dull.vim
+│   │   │   ├── duotone-darkcave.vim
+│   │   │   ├── duotone-darkdesert.vim
+│   │   │   ├── duotone-darkearth.vim
+│   │   │   ├── duotone-darkforest.vim
+│   │   │   ├── duotone-darkheath.vim
+│   │   │   ├── duotone-darklake.vim
+│   │   │   ├── duotone-darkmeadow.vim
+│   │   │   ├── duotone-darkpark.vim
+│   │   │   ├── duotone-darkpool.vim
+│   │   │   ├── duotone-darksea.vim
+│   │   │   ├── duotone-darkspace.vim
+│   │   │   ├── duotone-dark.vim
+│   │   │   ├── dusk.vim
+│   │   │   ├── dw_blue.vim
+│   │   │   ├── dw_cyan.vim
+│   │   │   ├── dw_green.vim
+│   │   │   ├── dw_orange.vim
+│   │   │   ├── dw_purple.vim
+│   │   │   ├── dw_red.vim
+│   │   │   ├── dw_yellow.vim
+│   │   │   ├── earendel.vim
+│   │   │   ├── earthburn.vim
+│   │   │   ├── earth.vim
+│   │   │   ├── eclipse.vim
+│   │   │   ├── eclm_wombat.vim
+│   │   │   ├── ecostation.vim
+│   │   │   ├── editplus.vim
+│   │   │   ├── edo_sea.vim
+│   │   │   ├── ego.vim
+│   │   │   ├── ekinivim.vim
+│   │   │   ├── ekvoli.vim
+│   │   │   ├── elda.vim
+│   │   │   ├── elflord.vim
+│   │   │   ├── elise.vim
+│   │   │   ├── elisex.vim
+│   │   │   ├── elrodeo.vim
+│   │   │   ├── elrond.vim
+│   │   │   ├── emacs.vim
+│   │   │   ├── enigma.vim
+│   │   │   ├── enzyme.vim
+│   │   │   ├── erez.vim
+│   │   │   ├── eva01.vim
+│   │   │   ├── eva.vim
+│   │   │   ├── evening1.vim
+│   │   │   ├── evening.vim
+│   │   │   ├── evolution.vim
+│   │   │   ├── far.vim
+│   │   │   ├── felipec.vim
+│   │   │   ├── feral.vim
+│   │   │   ├── flatcolor.vim
+│   │   │   ├── flatlandia.vim
+│   │   │   ├── flatland.vim
+│   │   │   ├── flattened_dark.vim
+│   │   │   ├── flattened_light.vim
+│   │   │   ├── flattown.vim
+│   │   │   ├── flattr.vim
+│   │   │   ├── flatui.vim
+│   │   │   ├── fnaqevan.vim
+│   │   │   ├── fog.vim
+│   │   │   ├── fokus.vim
+│   │   │   ├── forneus.vim
+│   │   │   ├── freya.vim
+│   │   │   ├── frood.vim
+│   │   │   ├── frozen.vim
+│   │   │   ├── fruidle.vim
+│   │   │   ├── fruit.vim
+│   │   │   ├── fruity.vim
+│   │   │   ├── fu.vim
+│   │   │   ├── fx.vim
+│   │   │   ├── gardener.vim
+│   │   │   ├── gemcolors.vim
+│   │   │   ├── genericdc-light.vim
+│   │   │   ├── genericdc.vim
+│   │   │   ├── gentooish.vim
+│   │   │   ├── getafe.vim
+│   │   │   ├── getfresh.vim
+│   │   │   ├── github.vim
+│   │   │   ├── gobo.vim
+│   │   │   ├── golded.vim
+│   │   │   ├── golden.vim
+│   │   │   ├── goodwolf.vim
+│   │   │   ├── google.vim
+│   │   │   ├── gor.vim
+│   │   │   ├── gotham256.vim
+│   │   │   ├── gotham.vim
+│   │   │   ├── gothic.vim
+│   │   │   ├── grape.vim
+│   │   │   ├── gravity.vim
+│   │   │   ├── grayorange.vim
+│   │   │   ├── graywh.vim
+│   │   │   ├── grb256.vim
+│   │   │   ├── greens.vim
+│   │   │   ├── Green.vim
+│   │   │   ├── greenvision.vim
+│   │   │   ├── grey2.vim
+│   │   │   ├── greyblue.vim
+│   │   │   ├── grishin.vim
+│   │   │   ├── gruvbox.vim
+│   │   │   ├── gryffin.vim
+│   │   │   ├── guardian.vim
+│   │   │   ├── guepardo.vim
+│   │   │   ├── h80.vim
+│   │   │   ├── habiLight.vim
+│   │   │   ├── harlequin.vim
+│   │   │   ├── heliotrope.vim
+│   │   │   ├── hemisu.vim
+│   │   │   ├── herald.vim
+│   │   │   ├── herokudoc-gvim.vim
+│   │   │   ├── herokudoc.vim
+│   │   │   ├── heroku-terminal.vim
+│   │   │   ├── heroku.vim
+│   │   │   ├── hhazure.vim
+│   │   │   ├── hhdblue.vim
+│   │   │   ├── hhdcyan.vim
+│   │   │   ├── hhdgray.vim
+│   │   │   ├── hhdgreen.vim
+│   │   │   ├── hhdmagenta.vim
+│   │   │   ├── hhdred.vim
+│   │   │   ├── hhdyellow.vim
+│   │   │   ├── hhorange.vim
+│   │   │   ├── hhpink.vim
+│   │   │   ├── hhspring.vim
+│   │   │   ├── hhteal.vim
+│   │   │   ├── hhviolet.vim
+│   │   │   ├── hilal.vim
+│   │   │   ├── holokai.vim
+│   │   │   ├── hornet.vim
+│   │   │   ├── hotpot.vim
+│   │   │   ├── hybrid-light.vim
+│   │   │   ├── hybrid_material.vim
+│   │   │   ├── hybrid_reverse.vim
+│   │   │   ├── hybrid.vim
+│   │   │   ├── iangenzo.vim
+│   │   │   ├── ibmedit.vim
+│   │   │   ├── icansee.vim
+│   │   │   ├── iceberg.vim
+│   │   │   ├── impactG.vim
+│   │   │   ├── impactjs.vim
+│   │   │   ├── impact.vim
+│   │   │   ├── industrial.vim
+│   │   │   ├── industry.vim
+│   │   │   ├── ingretu.vim
+│   │   │   ├── inkpot.vim
+│   │   │   ├── inori.vim
+│   │   │   ├── ir_black.vim
+│   │   │   ├── ironman.vim
+│   │   │   ├── itg_flat.vim
+│   │   │   ├── jaime.vim
+│   │   │   ├── jammy.vim
+│   │   │   ├── janah.vim
+│   │   │   ├── jelleybeans.vim
+│   │   │   ├── jellybeans.vim
+│   │   │   ├── jellyx.vim
+│   │   │   ├── jhdark.vim
+│   │   │   ├── jhlight.vim
+│   │   │   ├── jiks.vim
+│   │   │   ├── kalahari.vim
+│   │   │   ├── kalisi.vim
+│   │   │   ├── kaltex.vim
+│   │   │   ├── kalt.vim
+│   │   │   ├── kate.vim
+│   │   │   ├── kellys.vim
+│   │   │   ├── khaki.vim
+│   │   │   ├── kib_darktango.vim
+│   │   │   ├── kib_plastic.vim
+│   │   │   ├── kiss.vim
+│   │   │   ├── kkruby.vim
+│   │   │   ├── koehler.vim
+│   │   │   ├── kolor.vim
+│   │   │   ├── kruby.vim
+│   │   │   ├── kyle.vim
+│   │   │   ├── laederon.vim
+│   │   │   ├── landscape.vim
+│   │   │   ├── lanzarotta.vim
+│   │   │   ├── lapis256.vim
+│   │   │   ├── last256.vim
+│   │   │   ├── late_evening.vim
+│   │   │   ├── lazarus.vim
+│   │   │   ├── legiblelight.vim
+│   │   │   ├── leglight2.vim
+│   │   │   ├── leo.vim
+│   │   │   ├── less.vim
+│   │   │   ├── lettuce.vim
+│   │   │   ├── leya.vim
+│   │   │   ├── lightcolors.vim
+│   │   │   ├── LightDefaultGrey.vim
+│   │   │   ├── LightDefault.vim
+│   │   │   ├── lightning.vim
+│   │   │   ├── LightTan.vim
+│   │   │   ├── Light.vim
+│   │   │   ├── LightYellow.vim
+│   │   │   ├── lilac.vim
+│   │   │   ├── lilydjwg_dark.vim
+│   │   │   ├── lilydjwg_green.vim
+│   │   │   ├── lilypink.vim
+│   │   │   ├── lingodirector.vim
+│   │   │   ├── liquidcarbon.vim
+│   │   │   ├── literal_tango.vim
+│   │   │   ├── lizard256.vim
+│   │   │   ├── lizard.vim
+│   │   │   ├── lodestone.vim
+│   │   │   ├── loogica.vim
+│   │   │   ├── louver.vim
+│   │   │   ├── lucid.vim
+│   │   │   ├── lucius.vim
+│   │   │   ├── luinnar.vim
+│   │   │   ├── lumberjack.vim
+│   │   │   ├── luna-term.vim
+│   │   │   ├── luna.vim
+│   │   │   ├── lxvc.vim
+│   │   │   ├── mac_classic.vim
+│   │   │   ├── made_of_code.vim
+│   │   │   ├── madeofcode.vim
+│   │   │   ├── magicwb.vim
+│   │   │   ├── mango.vim
+│   │   │   ├── manuscript.vim
+│   │   │   ├── manxome.vim
+│   │   │   ├── marklar.vim
+│   │   │   ├── maroloccio2.vim
+│   │   │   ├── maroloccio3.vim
+│   │   │   ├── maroloccio.vim
+│   │   │   ├── mars.vim
+│   │   │   ├── martin_krischik.vim
+│   │   │   ├── materialbox.vim
+│   │   │   ├── material-theme.vim
+│   │   │   ├── materialtheme.vim
+│   │   │   ├── material.vim
+│   │   │   ├── matrix.vim
+│   │   │   ├── maui.vim
+│   │   │   ├── mayansmoke.vim
+│   │   │   ├── mdark.vim
+│   │   │   ├── mellow.vim
+│   │   │   ├── meta5.vim
+│   │   │   ├── metacosm.vim
+│   │   │   ├── midnight.vim
+│   │   │   ├── miko.vim
+│   │   │   ├── minimalist.vim
+│   │   │   ├── mint.vim
+│   │   │   ├── mizore.vim
+│   │   │   ├── mod8.vim
+│   │   │   ├── mod_tcsoft.vim
+│   │   │   ├── mojave.vim
+│   │   │   ├── molokai_dark.vim
+│   │   │   ├── molokai.vim
+│   │   │   ├── monoacc.vim
+│   │   │   ├── monochrome.vim
+│   │   │   ├── monokai-chris.vim
+│   │   │   ├── monokain.vim
+│   │   │   ├── Monokai.vim
+│   │   │   ├── montz.vim
+│   │   │   ├── moonshine_lowcontrast.vim
+│   │   │   ├── moonshine.vim
+│   │   │   ├── mophiaDark.vim
+│   │   │   ├── mophiaSmoke.vim
+│   │   │   ├── mopkai.vim
+│   │   │   ├── moria.vim
+│   │   │   ├── morning.vim
+│   │   │   ├── moss.vim
+│   │   │   ├── motus.vim
+│   │   │   ├── MountainDew.vim
+│   │   │   ├── mrkn256.vim
+│   │   │   ├── mrpink.vim
+│   │   │   ├── mud.vim
+│   │   │   ├── muon.vim
+│   │   │   ├── murphy.vim
+│   │   │   ├── mushroom.vim
+│   │   │   ├── mustang.vim
+│   │   │   ├── native.vim
+│   │   │   ├── nature.vim
+│   │   │   ├── navajo-night.vim
+│   │   │   ├── navajo.vim
+│   │   │   ├── nazca.vim
+│   │   │   ├── nedit2.vim
+│   │   │   ├── nedit.vim
+│   │   │   ├── nefertiti.vim
+│   │   │   ├── neon.vim
+│   │   │   ├── neonwave.vim
+│   │   │   ├── nerv-ous.vim
+│   │   │   ├── neutron.vim
+│   │   │   ├── neverland2-darker.vim
+│   │   │   ├── neverland2.vim
+│   │   │   ├── neverland-darker.vim
+│   │   │   ├── neverland.vim
+│   │   │   ├── neverness.vim
+│   │   │   ├── nevfn.vim
+│   │   │   ├── newspaper.vim
+│   │   │   ├── newsprint.vim
+│   │   │   ├── nicotine.vim
+│   │   │   ├── nightflight2.vim
+│   │   │   ├── nightflight.vim
+│   │   │   ├── nightshade_print.vim
+│   │   │   ├── nightshade.vim
+│   │   │   ├── nightshimmer.vim
+│   │   │   ├── nightsky.vim
+│   │   │   ├── night.vim
+│   │   │   ├── night_vision.vim
+│   │   │   ├── nightVision.vim
+│   │   │   ├── nightwish.vim
+│   │   │   ├── no_quarter.vim
+│   │   │   ├── northland.vim
+│   │   │   ├── northsky.vim
+│   │   │   ├── norwaytoday.vim
+│   │   │   ├── nour.vim
+│   │   │   ├── nuvola.vim
+│   │   │   ├── obsidian2.vim
+│   │   │   ├── obsidian.vim
+│   │   │   ├── oceanblack256.vim
+│   │   │   ├── oceanblack.vim
+│   │   │   ├── oceandeep.vim
+│   │   │   ├── OceanicNext.vim
+│   │   │   ├── oceanlight.vim
+│   │   │   ├── olive.vim
+│   │   │   ├── onedark.vim
+│   │   │   ├── orange.vim
+│   │   │   ├── osx_like.vim
+│   │   │   ├── otaku.vim
+│   │   │   ├── oxeded.vim
+│   │   │   ├── pablo.vim
+│   │   │   ├── pacific.vim
+│   │   │   ├── paintbox.vim
+│   │   │   ├── PapayaWhip.vim
+│   │   │   ├── PaperColor.vim
+│   │   │   ├── parsec.vim
+│   │   │   ├── peachpuff.vim
+│   │   │   ├── peaksea.vim
+│   │   │   ├── pencil.vim
+│   │   │   ├── penultimate.vim
+│   │   │   ├── peppers.vim
+│   │   │   ├── perfect.vim
+│   │   │   ├── pf_earth.vim
+│   │   │   ├── phd.vim
+│   │   │   ├── phoenix.vim
+│   │   │   ├── phphaxor.vim
+│   │   │   ├── phpx.vim
+│   │   │   ├── pink.vim
+│   │   │   ├── playroom.vim
+│   │   │   ├── pleasant.vim
+│   │   │   ├── potts.vim
+│   │   │   ├── predawn.vim
+│   │   │   ├── preto.vim
+│   │   │   ├── pride.vim
+│   │   │   ├── primary.vim
+│   │   │   ├── print_bw.vim
+│   │   │   ├── prmths.vim
+│   │   │   ├── professional.vim
+│   │   │   ├── proton.vim
+│   │   │   ├── ps_color.vim
+│   │   │   ├── pspad.vim
+│   │   │   ├── pt_black.vim
+│   │   │   ├── putty.vim
+│   │   │   ├── pw.vim
+│   │   │   ├── pyte.vim
+│   │   │   ├── python.vim
+│   │   │   ├── quagmire.vim
+│   │   │   ├── radicalgoodspeed.vim
+│   │   │   ├── railscasts.vim
+│   │   │   ├── rainbow_autumn.vim
+│   │   │   ├── rainbow_fine_blue.vim
+│   │   │   ├── rainbow_night.vim
+│   │   │   ├── rainbow_sea.vim
+│   │   │   ├── rakr-light.vim
+│   │   │   ├── random.vim
+│   │   │   ├── rastafari.vim
+│   │   │   ├── rcg_gui.vim
+│   │   │   ├── rcg_term.vim
+│   │   │   ├── rdark-terminal.vim
+│   │   │   ├── rdark.vim
+│   │   │   ├── redblack.vim
+│   │   │   ├── redstring.vim
+│   │   │   ├── Red.vim
+│   │   │   ├── refactor.vim
+│   │   │   ├── relaxedgreen.vim
+│   │   │   ├── reliable.vim
+│   │   │   ├── reloaded.vim
+│   │   │   ├── revolutions.vim
+│   │   │   ├── Revolution.vim
+│   │   │   ├── robinhood.vim
+│   │   │   ├── ron.vim
+│   │   │   ├── rootwater.vim
+│   │   │   ├── sadek1.vim
+│   │   │   ├── sand.vim
+│   │   │   ├── sandydune.vim
+│   │   │   ├── satori.vim
+│   │   │   ├── saturn.vim
+│   │   │   ├── scheakur.vim
+│   │   │   ├── scite.vim
+│   │   │   ├── scooby.vim
+│   │   │   ├── sean.vim
+│   │   │   ├── seashell.vim
+│   │   │   ├── seattle.vim
+│   │   │   ├── selenitic.vim
+│   │   │   ├── seoul256-light.vim
+│   │   │   ├── seoul256.vim
+│   │   │   ├── seoul.vim
+│   │   │   ├── seti.vim
+│   │   │   ├── settlemyer.vim
+│   │   │   ├── sexy-railscasts.vim
+│   │   │   ├── sf.vim
+│   │   │   ├── shadesofamber.vim
+│   │   │   ├── shades-of-teal.vim
+│   │   │   ├── shine.vim
+│   │   │   ├── shobogenzo.vim
+│   │   │   ├── sienna.vim
+│   │   │   ├── sierra.vim
+│   │   │   ├── sift.vim
+│   │   │   ├── silent.vim
+│   │   │   ├── simple256.vim
+│   │   │   ├── simpleandfriendly.vim
+│   │   │   ├── simple_b.vim
+│   │   │   ├── simplewhite.vim
+│   │   │   ├── simplon.vim
+│   │   │   ├── skittles_berry.vim
+│   │   │   ├── skittles_dark.vim
+│   │   │   ├── sky.vim
+│   │   │   ├── slate2.vim
+│   │   │   ├── SlateDark.vim
+│   │   │   ├── Slate.vim
+│   │   │   ├── smpl.vim
+│   │   │   ├── smp.vim
+│   │   │   ├── smyck.vim
+│   │   │   ├── soda.vim
+│   │   │   ├── softbluev2.vim
+│   │   │   ├── softblue.vim
+│   │   │   ├── softlight.vim
+│   │   │   ├── solarized.vim
+│   │   │   ├── sole.vim
+│   │   │   ├── sol-term.vim
+│   │   │   ├── sol.vim
+│   │   │   ├── sonofobsidian.vim
+│   │   │   ├── sonoma.vim
+│   │   │   ├── sorcerer.vim
+│   │   │   ├── soruby.vim
+│   │   │   ├── soso.vim
+│   │   │   ├── sourcerer.vim
+│   │   │   ├── southernlights.vim
+│   │   │   ├── southwest-fog.vim
+│   │   │   ├── spacegray.vim
+│   │   │   ├── spectro.vim
+│   │   │   ├── spiderhawk.vim
+│   │   │   ├── Spink.vim
+│   │   │   ├── spring.vim
+│   │   │   ├── sprinkles.vim
+│   │   │   ├── stackoverflow.vim
+│   │   │   ├── stingray.vim
+│   │   │   ├── stonewashed-256.vim
+│   │   │   ├── stonewashed-gui.vim
+│   │   │   ├── strange.vim
+│   │   │   ├── strawimodo.vim
+│   │   │   ├── summerfruit256.vim
+│   │   │   ├── summerfruit.vim
+│   │   │   ├── sunburst.vim
+│   │   │   ├── surveyor.vim
+│   │   │   ├── swamplight.vim
+│   │   │   ├── sweater.vim
+│   │   │   ├── SweetCandy.vim
+│   │   │   ├── symfony.vim
+│   │   │   ├── synic.vim
+│   │   │   ├── tabula.vim
+│   │   │   ├── tango2.vim
+│   │   │   ├── tango-desert.vim
+│   │   │   ├── tango-morning.vim
+│   │   │   ├── tangoshady.vim
+│   │   │   ├── tango.vim
+│   │   │   ├── tangoX.vim
+│   │   │   ├── taqua.vim
+│   │   │   ├── tayra.vim
+│   │   │   ├── tchaba2.vim
+│   │   │   ├── tchaba.vim
+│   │   │   ├── tcsoft.vim
+│   │   │   ├── telstar.vim
+│   │   │   ├── termschool.vim
+│   │   │   ├── tesla.vim
+│   │   │   ├── tetragrammaton.vim
+│   │   │   ├── textmate16.vim
+│   │   │   ├── thegoodluck.vim
+│   │   │   ├── thestars.vim
+│   │   │   ├── thornbird.vim
+│   │   │   ├── thor.vim
+│   │   │   ├── tibet.vim
+│   │   │   ├── tidy.vim
+│   │   │   ├── tir_black.vim
+│   │   │   ├── tolerable.vim
+│   │   │   ├── tomatosoup.vim
+│   │   │   ├── Tomorrow-Night-Blue.vim
+│   │   │   ├── Tomorrow-Night-Bright.vim
+│   │   │   ├── Tomorrow-Night-Eighties.vim
+│   │   │   ├── Tomorrow-Night.vim
+│   │   │   ├── Tomorrow.vim
+│   │   │   ├── tony_light.vim
+│   │   │   ├── toothpik.vim
+│   │   │   ├── torte.vim
+│   │   │   ├── transparent.vim
+│   │   │   ├── triplejelly.vim
+│   │   │   ├── trivial256.vim
+│   │   │   ├── trogdor.vim
+│   │   │   ├── tropikos.vim
+│   │   │   ├── turbo.vim
+│   │   │   ├── tutticolori.vim
+│   │   │   ├── twilight256.vim
+│   │   │   ├── twilight.vim
+│   │   │   ├── twitchy.vim
+│   │   │   ├── two2tango.vim
+│   │   │   ├── ubaryd.vim
+│   │   │   ├── ubloh.vim
+│   │   │   ├── umber-green.vim
+│   │   │   ├── understated.vim
+│   │   │   ├── underwater-mod.vim
+│   │   │   ├── underwater.vim
+│   │   │   ├── up.vim
+│   │   │   ├── valloric.vim
+│   │   │   ├── vanzan_color.vim
+│   │   │   ├── vcbc.vim
+│   │   │   ├── vc.vim
+│   │   │   ├── vexorian.vim
+│   │   │   ├── vibrantink.vim
+│   │   │   ├── vilight.vim
+│   │   │   ├── vimbrant.vim
+│   │   │   ├── visualstudio.vim
+│   │   │   ├── vividchalk.vim
+│   │   │   ├── VIvid.vim
+│   │   │   ├── vj.vim
+│   │   │   ├── void.vim
+│   │   │   ├── vydark.vim
+│   │   │   ├── vylight.vim
+│   │   │   ├── wargrey.vim
+│   │   │   ├── warm_grey.vim
+│   │   │   ├── wasabi256.vim
+│   │   │   ├── watermark.vim
+│   │   │   ├── wellsokai.vim
+│   │   │   ├── White2.vim
+│   │   │   ├── whitebox.vim
+│   │   │   ├── whitedust.vim
+│   │   │   ├── white.vim
+│   │   │   ├── widower.vim
+│   │   │   ├── win9xblueback.vim
+│   │   │   ├── wintersday.vim
+│   │   │   ├── winter.vim
+│   │   │   ├── woju.vim
+│   │   │   ├── wolfpack.vim
+│   │   │   ├── wombat256i.vim
+│   │   │   ├── wombat256mod.vim
+│   │   │   ├── wombat256.vim
+│   │   │   ├── wombat.vim
+│   │   │   ├── wood.vim
+│   │   │   ├── wuye.vim
+│   │   │   ├── xemacs.vim
+│   │   │   ├── xian.vim
+│   │   │   ├── xmaslights.vim
+│   │   │   ├── xoria256.vim
+│   │   │   ├── xterm16.vim
+│   │   │   ├── yeller.vim
+│   │   │   ├── zazen.vim
+│   │   │   ├── zellner.vim
+│   │   │   ├── zenburn.vim
+│   │   │   ├── zenesque.vim
+│   │   │   ├── zen.vim
+│   │   │   ├── zephyr.vim
+│   │   │   ├── zmrok.vim
+│   │   │   └── znake.vim
+│   │   ├── colors.vim
+│   │   ├── [01;34mdoc[00m
+│   │   │   ├── supertab.txt
+│   │   │   └── tags
+│   │   ├── [01;34mftdetect[00m
+│   │   │   └── bro.vim
+│   │   ├── [01;34mplugin[00m
+│   │   │   ├── autohighlight.vim
+│   │   │   ├── GudFold.vim.bak
+│   │   │   ├── GudFold.vim.BAK
+│   │   │   ├── rainbow.vim
+│   │   │   └── supertab.vim
+│   │   ├── [01;34msyntax[00m
+│   │   │   └── bro.vim
+│   │   ├── vimrc.local
+│   │   └── vim-shortcuts.md
+│   └── [01;34mzsh[00m
+│       ├── alias
+│       ├── bolverk.zsh-theme
+│       └── zshrc
+├── [01;34mpi[00m
+│   ├── [01;34mboot[00m
+│   │   ├── [01;32mcmdline.txt[00m
+│   │   └── [01;32mconfig.txt[00m
+│   ├── miniconda.sh
+│   └── pi_pkgs.sh
+├── [01;34mpkgs[00m
+│   ├── all_pkgs.sh
+│   ├── media_server_pkgs.sh
+│   ├── server_pkgs.sh
+│   └── workstation_pkgs.sh
+└── README.md
+
+22 directories, 872 files
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[70C 18-11-08 - 6:38:45[89D[?1h=[?2004hAA:quit[?1l>[?2004l
+kA:quit\zsh: command not found: A:quit
+[1m[3m#[23m[1m[0m                                                                                             k~/bolverk-os\[0m[23m[24m[J
+[01;36mroot[00m[33m@[00m[01;34mk1ll3r[00m:[01;32m~/bolverk-os[00m[01;35m^[00m[01;33mmaster[31m ⚒[00m[00m
+[35m⚡ [00m[K[64C[01;31m:( 127[00m 18-11-08 - 6:38:53[89D[?1h=[?2004h
