@@ -1,6 +1,7 @@
 # git
 alias "gita"="git add -A"
 alias "gitcl"="git clone https://github.com/"
+alias "gitssh"="git clone ssh://git@github.com/"
 alias "gitcm"="git commit -m"
 alias "gitpl"="git pull"
 alias "gitpm"="git push origin master"
@@ -16,14 +17,10 @@ alias "zshrc"="vim /etc/zsh/zshrc && source /etc/zsh/zshrc"
 #
 # change directory shortcuts
 alias "brologs"="cd /usr/local/bro/logs/current"
-alias "broconf"="cd /usr/local/bro/etc"
+alias "broetc"="cd /usr/local/bro/etc"
 #
 # system command aliases 
-alias "sysctl-st"="systemctl status"
-alias "sysctl-r"="systemctl restart"
-alias "sysctl-e"="systemctl enable"
-alias "rn"="systemctl reboot now"
-alias "install"="sudo apt install"
+alias "inst"="sudo apt install"
 alias "purge"="sudo apt remove --purge"
 alias "upd"="sudo apt update"
 alias "upg"="sudo apt upg -y"
@@ -35,15 +32,28 @@ alias "wnet"="watch -n .1 -c 'netstat -tulpna'"
 alias "myip"="ip -br addr"
 alias "du"="du -h"
 alias "df"="df -h"
-alias "ihs"="history|grep"
+alias "histg"="history|grep"
 alias "most recent"="ls -ltrRh"
+alias "watch"="watch -n .1 -c"
 #alias ""=""
 #
 # make system default python -> python3
-alias 'python'='/usr/bin/python3'
-alias 'pip'='/usr/bin/pip3'
-alias 'pip2'='/usr/bin/pip'
-alias 'python2'='/usr/bin/python2'
+#alias 'python'='/usr/bin/python3'
+#alias 'pip'='/usr/bin/pip3'
+#alias 'pip2'='/usr/bin/pip'
+#alias 'python2'='/usr/bin/python2'
+#systemd shortcuts
+alias "rn"="systemctl reboot now"
+alias "sys-st"="systemctl status"
+alias "sys-sp"="systemctl stop"
+alias "sys-sr"="systemctl start"
+alias "sys-r"="systemctl restart"
+alias "sys-e"="systemctl enable"
+alias "sys-d"="systemctl disable"
+alias "running"="systemctl list-units --state=running"
+alias "active"="systemctl list-units --state=active"
+alias "active"="systemctl list-unit-files --state=enabled"
+alias "failed"="systemctl list-units --state=failed --all"
 #
 # autocorrect
 alias "vm"="mv"
