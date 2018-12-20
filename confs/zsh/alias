@@ -55,14 +55,7 @@ alias "active"="systemctl list-units --state=active"
 alias "active"="systemctl list-unit-files --state=enabled"
 alias "failed"="systemctl list-units --state=failed --all"
 #
+#alias ""=""
 # autocorrect
 alias "vm"="mv"
 alias "cd.."="cd .."
-#
-# Functions ##############################
-# $ = pattern, $2 =  path
-findstr() { grep -rnw $1 -e $2 }
-# make a dir and cd into it
-mkcd() { mkdir -p $1; cd $1 }
-# find and kill processes
-fkill() { kill -9 $( ps aux| grep '$1')}
