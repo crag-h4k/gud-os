@@ -4,10 +4,6 @@ chromedriver
 chromium
 cmake
 curl
-deborphan
-deluge
-deluge-web
-deluged
 dtrx
 fail2ban
 feh
