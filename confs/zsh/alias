@@ -35,6 +35,7 @@ alias "df"="df -h"
 alias "histg"="history|grep"
 alias "most recent"="ls -ltrRh"
 alias "watch"="watch -n .1 -c"
+alias "rs"="rsync -a --info=progress2"
 #alias ""=""
 #
 # make system default python -> python3
