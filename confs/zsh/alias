@@ -19,7 +19,7 @@ alias "zshrc"="vim /etc/zsh/zshrc && source /etc/zsh/zshrc"
 alias "brologs"="cd /usr/local/bro/logs/current"
 alias "broetc"="cd /usr/local/bro/etc"
 #
-# system command aliases 
+# shortcuts 
 alias "inst"="sudo apt install"
 alias "purge"="sudo apt remove --purge"
 alias "upd"="sudo apt update"
@@ -36,6 +36,7 @@ alias "histg"="history|grep"
 alias "most recent"="ls -ltrRh"
 alias "watch"="watch -n .1 -c"
 alias "rs"="rsync -a --info=progress2"
+alias "c"="highlight -O ansi --force"
 #alias ""=""
 #
 # make system default python -> python3

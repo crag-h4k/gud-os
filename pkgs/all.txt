@@ -17,6 +17,7 @@ fonts-hack-web
 g++
 gcc
 git
+highlight
 htop
 i3
 libffi-dev
