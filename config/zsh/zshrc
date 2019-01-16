@@ -1,20 +1,12 @@
-# If you come from bash you might have to change your $PATH.
-#export PATH=$HOME/bin:/usr/local/bin:$PATH
-# Path to your oh-my-zsh installation.
-export ZSH=/etc/zsh/oh-my-zsh
-# Set name of the theme to load. Optionally, if you set this to "random"
-if [ ! -f /etc/zsh/oh-my-zsh/themes/bolverk.zsh-theme ]; then
-  ln -f /etc/zsh/bolverk.zsh-theme /etc/zsh/oh-my-zsh/themes/bolverk.zsh-theme
-fi
-
 ZSH_THEME="bolverk" #re5et, sunaku,arrow,lambda
 plugins=(
   git
 )
+#
 ZSH_DISABLE_COMPFIX=true
 #
 source $ZSH/oh-my-zsh.sh
-source /etc/zsh/alias
+source /etc/zsh/aliases
 source /etc/zsh/funcs
 #
 # stop all beeps
@@ -34,14 +26,6 @@ setopt share_history        # share history between sessions
 # alerts 
 watch=all                   # watch all logins
 logcheck=15                 # every 15 seconds
-export HISTTIMEFORMAT="%d/%m/%y %T"
-#path exports
-export PATH=$HOME/.local/bin:$PATH
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/sbin:$PATH
-export PATH=/usr/bin:$PATH
-export PATH=/usr/local/bro/bin:$PATH
-#export PATH=/opt/miniconda3/bin:$PATH
 
 myip
 #theme candy

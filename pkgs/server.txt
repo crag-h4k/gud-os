@@ -3,8 +3,6 @@ byobu
 cmake
 curl
 dtrx
-fail2ban
-feh
 g++
 gcc
 git
@@ -19,7 +17,6 @@ ncdu
 net-tools
 netselect-apt
 nmap
-psad
 python3-jedi
 python3-pip
 ranger
