@@ -1,7 +1,10 @@
 "deadlift1226 vim config
 "test
-set nocompatible
-"syntax on
+"set nocompatible
+set runtimepath+=/etc/vim
+syntax on
+color dracula
+syntax enable
 filetype plugin indent on
 
 set number
@@ -71,8 +74,6 @@ let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 set updatetime=500
 "colors
 set t_Co=256
-syntax enable
-colorscheme dracula
 "hi Normal ctermfg=42
 "hi LineNr ctermfg=68
 " hi Folded ctermfg=16
