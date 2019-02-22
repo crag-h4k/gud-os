@@ -6,8 +6,8 @@ dtrx
 g++
 gcc
 git
-htop
 highlight
+htop
 libffi-dev
 libpython3-all-dev
 libssl-dev
@@ -23,6 +23,8 @@ ranger
 sudo
 tmux
 tree
-vim
+vim-nox
+vim-pathogen
+vim-python-jedi
 wget
 zsh

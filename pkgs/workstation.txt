@@ -37,10 +37,12 @@ sudo
 thunar
 tmux
 tree
-vim
+vim-nox
+vim-pathogen
+vim-python-jedi
 vlc
 wget
 wireshark
 xfce4 --no-install-recommends
-zsh
 xserver-xorg
+zsh

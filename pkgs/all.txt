@@ -37,7 +37,9 @@ thunar
 tmux
 tor
 tree
-vim
+vim-nox
+vim-pathogen
+vim-python-jedi
 vlc
 wget
 wireshark

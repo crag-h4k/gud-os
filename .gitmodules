@@ -1,3 +1,18 @@
 [submodule "colors"]
 	path = config/vim/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes
+[submodule "config/vim/bundle/bro"]
+	path = config/vim/bundle/bro
+	url = git://github.com/mephux/bro.vim.git
+[submodule "config/vim/bundle/rainbow"]
+	path = config/vim/bundle/rainbow
+	url = git://github.com/luochen1990/rainbow
+[submodule "config/vim/bundle/vim-colorschemes"]
+	path = config/vim/bundle/vim-colorschemes
+	url = git://github.com/flazz/vim-colorschemes
+[submodule "config/vim/bundle/supertab"]
+	path = config/vim/bundle/supertab
+	url = git://github.com/ervandew/supertab
+[submodule "config/zsh/oh-my-zsh"]
+	path = config/zsh/oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh
