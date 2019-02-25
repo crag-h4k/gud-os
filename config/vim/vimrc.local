@@ -1,9 +1,12 @@
 "deadlift1226 vim config
-set runtimepath+=/etc/vim
-execute pathogen#infect()
-filetype plugin indent on
+execute pathogen#infect('bundle/{}', '/etc/vim/bundle/{}')
 syntax on
-color dracula
+filetype plugin indent on
+set runtimepath+=/etc/vim
+
+"let g:SuperTabContextDefaultCompletetionType = "<c-x><c-o>"
+"set omnifunc=syntaxcomplete
+
 
 "autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 set number
@@ -45,15 +48,15 @@ set wildmenu
 set wildmode=list:longest,full
 
 "proper tab
-"set smarttab
-"set shiftwidth=4
-"set tabstop=4
-"set softtabstop=4
-"set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
 "proper indent
-"set ai
-"set si
-"set wrap
+set ai
+set si
+set wrap
 "no swapfile or backup, be careful ;)
 set noswapfile
 set nobackup
