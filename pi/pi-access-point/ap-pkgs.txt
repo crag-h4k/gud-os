@@ -1,0 +1,7 @@
+hostapd
+dnsmasq
+tor
+iptables-persistent
+vim
+git
+

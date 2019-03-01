@@ -1,0 +1,3 @@
+iptables-restore < /etc/iptables.ipv4.nat
+ip -br addr
+exit 0
