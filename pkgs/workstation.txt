@@ -28,7 +28,6 @@ net-tools
 netselect-apt
 nmap
 psad
-python3-jedi
 python3-pip
 ranger
 rxvt-unicode-256color
@@ -39,7 +38,6 @@ tmux
 tree
 vim-nox
 vim-pathogen
-vim-python-jedi
 vlc
 wget
 wireshark
