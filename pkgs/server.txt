@@ -17,7 +17,7 @@ ncdu
 net-tools
 netselect-apt
 nmap
-python3-jedi
+python3-dev
 python3-pip
 ranger
 sudo
@@ -25,6 +25,5 @@ tmux
 tree
 vim-nox
 vim-pathogen
-vim-python-jedi
 wget
 zsh
