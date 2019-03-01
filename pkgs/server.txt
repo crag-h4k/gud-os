@@ -11,7 +11,6 @@ htop
 libffi-dev
 libpython3-all-dev
 libssl-dev
-lightdm
 make
 ncdu
 net-tools
