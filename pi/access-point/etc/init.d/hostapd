@@ -1,18 +1,5 @@
 #!/bin/sh
 
-### BEGIN INIT INFO
-# Provides:		hostapd
-# Required-Start:	$remote_fs
-# Required-Stop:	$remote_fs
-# Should-Start:		$network
-# Should-Stop:
-# Default-Start:	2 3 4 5
-# Default-Stop:		0 1 6
-# Short-Description:	Advanced IEEE 802.11 management daemon
-# Description:		Userspace IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/EAP
-#			Authenticator
-### END INIT INFO
-
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 DAEMON_SBIN=/usr/sbin/hostapd
 DAEMON_DEFS=/etc/default/hostapd

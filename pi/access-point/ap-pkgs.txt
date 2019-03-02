@@ -5,3 +5,4 @@ iptables-persistent
 vim
 git
 
+dhcpcd5

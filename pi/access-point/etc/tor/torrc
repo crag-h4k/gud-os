@@ -3,6 +3,6 @@ VirtualAddrNetwork 10.192.0.0/10
 AutomapHostsSuffixes .onion,.exit
 AutomapHostsOnResolve 1
 TransPort 9040
-TransListenAddress 192.168.42.1
+TransListenAddress 192.168.219.1
 DNSPort 53
-DNSListenAddress 192.168.42.1
+DNSListenAddress 192.168.219.1
