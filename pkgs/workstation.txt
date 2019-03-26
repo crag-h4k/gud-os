@@ -1,3 +1,4 @@
+arc-dark
 build-essential
 byobu
 chromedriver
@@ -22,12 +23,13 @@ libssl-dev
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
+lxappearance
 make
 ncdu
 net-tools
 netselect-apt
 nmap
-psad
+papirus-icon-theme
 python3-pip
 ranger
 rxvt-unicode-256color
