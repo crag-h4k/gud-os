@@ -1,4 +1,4 @@
-arc-dark
+arc-theme
 build-essential
 byobu
 chromedriver
@@ -29,7 +29,6 @@ ncdu
 net-tools
 netselect-apt
 nmap
-papirus-icon-theme
 python3-pip
 ranger
 rxvt-unicode-256color
