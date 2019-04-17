@@ -16,3 +16,12 @@
 [submodule "config/zsh/oh-my-zsh"]
 	path = config/zsh/oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh
+[submodule "config/vim/bundle/jedi-vim"]
+	path = config/vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
+[submodule "config/vim/bundle/vim-elixir"]
+	path = config/vim/bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "config/vim/bundle/vim-typora"]
+	path = config/vim/bundle/vim-typora
+	url = https://github.com/wookayin/vim-typora

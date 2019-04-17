@@ -1,14 +1,17 @@
+"runtime! debian.vim
+"if filereadable("/etc/vim/vimrc.local")
+"	source /etc/vim/vimrc.local
+"endif
 "deadlift1226 vim config
 execute pathogen#infect('bundle/{}', '/etc/vim/bundle/{}')
 syntax on
 filetype plugin indent on
+filetype plugin on
+set omnifunc=syntaxcomplete
 set runtimepath+=/etc/vim
+"let g:ycm_path_to_python_interpreter = 'opt/miniconda3/bin/python'
+"let g:ycm_autoclose_preview_window_after_completion=1
 
-"let g:SuperTabContextDefaultCompletetionType = "<c-x><c-o>"
-"set omnifunc=syntaxcomplete
-
-
-"autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 set number
 set mouse+=a
 "searching 
@@ -20,7 +23,6 @@ set hidden
 nmap sr <ESC>:%s///gc
 
 "test
-"set nocompatible
 " folding
 set foldmethod=indent
 set foldnestmax=10
@@ -34,6 +36,7 @@ vnoremap <Space> za
 nnoremap ,z zMzvzz
 """""unfold top regardless of cursor location
 nnoremap Z zCzO
+
 "buffers to save cursor location
 au BufWinLeave * mkview
 au BufWinEnter * silent loadview

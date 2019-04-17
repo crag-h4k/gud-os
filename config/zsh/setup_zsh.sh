@@ -1,6 +1,4 @@
 #!/bin/bash
-mv $HOME/.oh-my-zsh /etc/zsh/oh-my-zsh
-
 echo "#" > $HOME/.zshrc
 echo "#" > /home/$SUDO_USER/.zshrc
 
