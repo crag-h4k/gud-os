@@ -38,6 +38,7 @@ alias "watch"="watch -n .1 -c"
 alias "rs"="rsync -a --info=progress2"
 alias "c"="highlight -O ansi --force"
 alias "xhist"="echo '' > ~/.zsh_history & exec $SHELL -l"
+alias "meow"="cat"
 #alias ""=""
 #
 # make system default python -> python3

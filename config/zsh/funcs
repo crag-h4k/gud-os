@@ -32,3 +32,10 @@ function ownssh() {
 function gitssh(){
    git clone ssh://git@github.com/'$1' 
     }
+fucntion pubip(){
+    
+    public_ip=$(echo -e "from requests import get\nprint(get('https://api.ipify.org').text)" |python3)
+    echo $public_ip
+    geoiplookup $public_ip
+}
+
