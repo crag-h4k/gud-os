@@ -45,3 +45,6 @@ wireshark
 xfce4 --no-install-recommends
 xserver-xorg
 zsh
+x11-server-utils
+fonts-powerline
+powerline
