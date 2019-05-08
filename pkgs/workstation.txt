@@ -42,9 +42,8 @@ vim-pathogen
 vlc
 wget
 wireshark
-xfce4 --no-install-recommends
 xserver-xorg
 zsh
-x11-server-utils
+x11-xserver-utils
 fonts-powerline
 powerline
