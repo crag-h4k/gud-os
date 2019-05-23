@@ -1,0 +1,16 @@
+Host git.corp.adobe.com
+    Hostname adobe.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_adobe
+    UseKeychain yes
+
+Host github.com
+    Hostname github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+    UseKeychain yes
+
+Host 192.168.0.*
+    User f3nr1r
+    IdentityFile ~/.ssh/id_rsa
+    UseKeychain yes

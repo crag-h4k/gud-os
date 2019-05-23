@@ -1,10 +1,11 @@
-dst="/etc/vim"
+dst="~/.vim"
 atld=$dst/autoload
 bundle=$dst/bundle
 
-#mkdir -p $bundle $atld
+mkdir -p $bundle $atld
+cd $dst
 git init $dst
-rsync -a * $dst/.
+#rsync -a * $dst/.
 #git submodule add git://github.com/mephux/bro.vim.git $bundle/bro
 #git submodule add git://github.com/luochen1990/rainbow $bundle/rainbow
 #git submodule add git://github.com/flazz/vim-colorschemes $bundle/vim-colorschemes
