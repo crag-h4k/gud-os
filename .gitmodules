@@ -15,7 +15,7 @@
 	url = git://github.com/ervandew/supertab
 [submodule "linux/config/zsh/oh-my-zsh"]
 	path = linux/config/zsh/oh-my-zsh
-	url = git://github.com/robbyrussell/oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
 [submodule "linux/config/vim/bundle/vim-elixir"]
 	path = linux/config/vim/bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
@@ -41,3 +41,6 @@
 	path = mac/config/vim/bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
 
+[submodule "linux/config/vim/bundle/bro"]
+	path = linux/config/vim/bundle/bro
+	url = git://github.com/mephux/bro.vim.git
