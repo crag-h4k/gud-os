@@ -1,3 +1,5 @@
+ZSH_LOC=/etc/zsh
+ZSH_CUSTOM=$ZSH_LOC/zsh_custom
 ZSH_THEME="bolverk" #re5et, sunaku,arrow,lambda
 plugins=(
   git
@@ -6,8 +8,8 @@ plugins=(
 ZSH_DISABLE_COMPFIX=true
 #
 source $ZSH/oh-my-zsh.sh
-source /etc/zsh/aliases
-source /etc/zsh/funcs
+source $ZSH_LOC/aliases
+source $ZSH_LOC/funcs
 #
 # stop all beeps
 unsetopt beep

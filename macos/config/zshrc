@@ -1,5 +1,5 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+ZSH_LOC=/Users/damorgan/.zsh
+ZSH_CUSTOM=$ZSH_LOC/zsh_custom
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bolverk"
 DISABLE_UPDATE_PROMPT="true"
@@ -7,9 +7,9 @@ ZSH_DISABLE_COMPFIX=true
 export UPDATE_ZSH_DAYS=13
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
-source /Users/damorgan/.zsh/aliases
-source /Users/damorgan/.zsh/funcs
-source /Users/damorgan/.zsh/zshenv
+source $ZSH_LOC/aliases
+source $ZSH_LOC/funcs
+source $ZSH_LOC/zshenv
 unsetopt beep
 unsetopt list_beep
 unsetopt hist_beep
