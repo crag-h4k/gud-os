@@ -1,16 +1,13 @@
-[submodule "linux-colors"]
+[submodule "vim-colorschemes"]
 	path = linux/config/vim/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes
-[submodule "linux-config/vim/bundle/bro"]
+[submodule "vim-bro"]
 	path = linux/config/vim/bundle/bro
 	url = git://github.com/mephux/bro.vim.git
-[submodule "linux/config/vim/bundle/rainbow"]
+[submodule "vim-rainbow"]
 	path = linux/config/vim/bundle/rainbow
 	url = git://github.com/luochen1990/rainbow
-[submodule "linux/config/vim/bundle/vim-colorschemes"]
-	path = linux/config/vim/bundle/vim-colorschemes
-	url = git://github.com/flazz/vim-colorschemes
-[submodule "linux/config/vim/bundle/supertab"]
+[submodule "vim-supertab"]
 	path = linux/config/vim/bundle/supertab
 	url = git://github.com/ervandew/supertab
 [submodule "linux/config/zsh/oh-my-zsh"]
@@ -19,28 +16,3 @@
 [submodule "linux/config/vim/bundle/vim-elixir"]
 	path = linux/config/vim/bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
- [submodule "mac-colors"]
-	path = mac/config/vim/vim-colorschemes
-	url = https://github.com/flazz/vim-colorschemes
-[submodule "mac/config/vim/bundle/bro"]
-	path = mac/config/vim/bundle/bro
-	url = git://github.com/mephux/bro.vim.git
-[submodule "mac/config/vim/bundle/rainbow"]
-	path = mac/config/vim/bundle/rainbow
-	url = git://github.com/luochen1990/rainbow
-[submodule "mac/config/vim/bundle/vim-colorschemes"]
-	path = mac/config/vim/bundle/vim-colorschemes
-	url = git://github.com/flazz/vim-colorschemes
-[submodule "mac/config/vim/bundle/supertab"]
-	path = mac/config/vim/bundle/supertab
-	url = git://github.com/ervandew/supertab
-[submodule "mac/config/zsh/oh-my-zsh"]
-	path = mac/config/zsh/oh-my-zsh
-	url = git://github.com/robbyrussell/oh-my-zsh
-[submodule "mac/config/vim/bundle/vim-elixir"]
-	path = mac/config/vim/bundle/vim-elixir
-	url = https://github.com/elixir-lang/vim-elixir.git
-
-[submodule "linux/config/vim/bundle/bro"]
-	path = linux/config/vim/bundle/bro
-	url = git://github.com/mephux/bro.vim.git
