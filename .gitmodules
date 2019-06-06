@@ -1,6 +1,6 @@
 [submodule "vim-colorschemes"]
 	path = linux/config/vim/vim-colorschemes
-	url = https://github.com/flazz/vim-colorschemes
+	url = git://github.com/flazz/vim-colorschemes
 [submodule "vim-bro"]
 	path = linux/config/vim/bundle/bro
 	url = git://github.com/mephux/bro.vim.git
@@ -10,9 +10,12 @@
 [submodule "vim-supertab"]
 	path = linux/config/vim/bundle/supertab
 	url = git://github.com/ervandew/supertab
-[submodule "linux/config/zsh/oh-my-zsh"]
+[submodule "oh-my-zsh"]
 	path = linux/config/zsh/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
-[submodule "linux/config/vim/bundle/vim-elixir"]
+[submodule "vim-elixir"]
 	path = linux/config/vim/bundle/vim-elixir
-	url = https://github.com/elixir-lang/vim-elixir.git
+	url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "vim-renamer"]
+	path = linux/config/vim/bundle/vim-renamer
+	url = git://github.com/qpkorr/vim-renamer
