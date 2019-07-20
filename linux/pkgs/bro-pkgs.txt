@@ -1,1 +1,0 @@
-git cmake make gcc g++ flex bison libmaxminddb-dev libmaxminddb0 libpcap-dev libssl1.0-dev python-dev swig zlib1g-dev mailutils
