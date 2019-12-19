@@ -19,3 +19,9 @@
 [submodule "vim-renamer"]
 	path = linux/config/vim/bundle/vim-renamer
 	url = git://github.com/qpkorr/vim-renamer
+[submodule "gud-zsh"]
+	path = gud-zsh
+	url = https://github.com/git-gud-1/gud-zsh
+[submodule "gud-vim"]
+	path = gud-vim
+	url = https://github.com/git-gud-1/gud-vim
